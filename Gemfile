@@ -43,7 +43,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano3-puma',   require: false
-  gem 'capistrano-rbenv', github: "capistrano/rbenv"
+  gem 'capistrano-rbenv'
   gem 'capistrano'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
