@@ -53,3 +53,5 @@ gem 'capistrano-rails'
 
 # Add this if you're using rbenv
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
+gem 'capistrano-rails-collection'
+gem 'capistrano-rails-console'
