@@ -12,7 +12,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+# gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -44,16 +44,15 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano3-puma',   require: false
   gem 'capistrano-rbenv', github: "capistrano/rbenv"
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rails-collection'
+  gem 'capistrano-rails-console'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'capistrano'
-gem 'capistrano-bundler'
-gem 'capistrano-rails'
-
 # Add this if you're using rbenv
 
-gem 'capistrano-rails-collection'
-gem 'capistrano-rails-console'
