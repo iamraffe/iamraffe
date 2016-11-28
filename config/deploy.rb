@@ -69,7 +69,7 @@ namespace :deploy do
   desc 'Initial Deploy'
   task :initial do
     on roles(:app) do
-      before 'deploy:restart', Rake::Task["puma:start"].reenable
+      # before 'deploy:restart', Rake::Task["puma:start"].reenable
       invoke 'deploy'
     end
   end
