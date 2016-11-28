@@ -55,3 +55,4 @@ gem 'capistrano-rails'
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
 gem 'capistrano-rails-collection'
 gem 'capistrano-rails-console'
+gem 'capistrano3-puma',   require: false
